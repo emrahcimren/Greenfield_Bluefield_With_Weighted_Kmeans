@@ -1,0 +1,96 @@
+%%
+%% Author: ecimren
+%% 4/6/2019
+%%
+
+% Preamble
+\documentclass[12pt]{article}
+% Use latex macro
+\input latexmacro
+\standard
+
+\oddsidemargin=0in%
+\evensidemargin=0in %
+\topmargin =-.5in %
+\textheight=8.5in %
+\textwidth=6.4in %
+
+% Packages
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{graphicx}
+\pagenumbering{arabic}
+
+
+% Document
+\begin{document}
+    \double
+
+    %\begin{center}
+
+     %   \Large{\bf Binary Program for Customer to Distribution Center Allocation}
+
+       % \bigskip
+        %\normalsize{Emrah Cimren \\
+        %cimren.1@gmail.com}
+
+        %\bigskip
+        %\normalsize\today
+        %\bigskip
+
+    %\end{center}
+
+    %\begin{abstract}
+     %   This document describes customer to distribution center allocation formulation.
+    %\end{abstract}
+
+    %\section{Model}
+
+    We first define sets and parameters and then define model variables.
+
+    Let $C$ be set of customers and $D$ be set of distribution centers.
+
+    Let $d_{j}$ be total demand for the customer $j \in C$.
+
+    Let $a_{ij}$ be the distance from the center $i \in D$ to customer $j \in C$.
+
+    Let $u^{-}_{i}$ be the minimum number of stores can be allocated to center $i \in D$.
+
+    Let $u^{+}_{i}$ be the maximum number of stores can be allocated to center $i \in D$.
+
+    Let $y_{ij}$ be the binary variable for assigning center $i \in D$ to customer $j\in C$ where
+
+    \begin{equationarray}{rlllll}
+    y_{ij}&=&\left\{
+    \begin{array}{ll}
+    1, & \mbox{if center }i\in D \mbox{ is assigned to customer }j \in C,\nonumber\\[5pt]
+    0, & \mbox{otherwise.} \nonumber
+    \end{array}
+    \right.\nonumber
+    \end{equationarray}
+
+    The following is the binary program for the distribution center and customer allocation.
+
+    \bigskip
+
+    \begin{equationarray}{rrrlll}
+        \mbox{minimize} \sum_{i\in D}\sum_{j\in C} d_{j}a_{ij}y_{ij} \label{model:objective}
+    \end{equationarray}
+
+    \vspace{-6pt}
+
+    \begin{equationarray}{rrrlll}
+
+        \mbox{subject to} & \sum_{i \in D}y_{ij} & = & 1, & \forall j\in C, \label{model:each customer to center}\\[18pt]
+                        & \sum_{j \in C} y_{ij} & \ge & u^{-}_{i}, & \forall i \in D, \label{model: min customers by center}\\[18pt]
+                        & \sum_{j \in C} y_{ij} & \le & u^{+}_{i}, & \forall i \in D, \label{model: max customers by center}\\[18pt]
+                        & y_{ij} & \in & \{0, 1\}, & \forall i \in D, j\in C. \label{model: variable binary}
+    \end{equationarray}
+
+    The objective of the model (\ref{model:objective}) minimizes the total weighted distance.
+    Constraint (\ref{model:each customer to center}) ensures that each customer is allocated to a center.
+    Each center has minimum and maximum number of allocated customers as in (\ref{model: min customers by center})
+    and (\ref{model: max customers by center}), respectively.
+    Center to customer allocation is binaries as in (\ref{model: variable binary}).
+
+\end{document}

@@ -1,0 +1,456 @@
+%%  Last update 7/03
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  This macro contains definitions of new \LaTeX commands  %%
+%%  that are frequently used by Barry L. Nelson.  This is   %%
+%%  a new release of the 'latexmacro.tex' file that I have  %%
+%%  distributed for some time.  This release                %%
+%%  is designed to be compatible with previous releases,    %%
+%%  except for eliminating the \smallheads command.         %%
+%%                                                          %%
+%%  This releases fixes a few bugs (please report any you   %%
+%%  find to nelsonb@random.eng.ohio-state.edu), includes    %%
+%%  more documentation, and completes the definitions of    %%
+%%  bold-face mathematics characters.                       %%
+%%                                                          %%
+%%  release 2.00   12/30/91                                 %%
+%%                                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%%
+%% Temporary fix for the paper size problem
+\special{papersize=8.5in,11in}
+%%
+%% USING THE MACRO:
+%% If you name this file latexmacro.tex, then use the following
+%% statement just after the \documentstyle{} command:
+%%
+%%    \input [path] latexmacro
+%%
+%% Packages to add when using MikTex
+%\usepackage{amsthm}
+%%
+%% LINE SPACING:
+%% Define single, one and a half, and double space commands; these
+%% may be used anywhere after \begin{document}
+%%
+\def\double{\par\baselineskip=24pt}
+\def\single{\par\baselineskip=12pt}
+\def\oneandahalf{\par\baselineskip=18pt}
+%%
+%% TEXT DIMENSIONS
+%% Define text widths \standard, \proceedings and \myletter.
+%% \proceedings prints a single, narrow column near the edge of the page.
+%% Use these before \begin{document} command.
+%%
+%% Use \enumer for full width page when all text uses \enumerate (MP 9/94)
+%%
+\def\enumer{\oddsidemargin=-.2in
+              \evensidemargin=-.2in
+              \topmargin =-.5in
+              \textheight=8.5in
+              \textwidth=6.7in}
+\def\standard{\oddsidemargin=0in
+              \evensidemargin=0in
+              \topmargin =-.5in
+              \textheight=8.5in
+              \textwidth=6.5in}
+\def\proceedings{\oddsidemargin=-.5in
+                 \evensidemargin=-.5in
+                 \textwidth=4.56in
+                 \parindent=0.3in
+                 \topmargin=-1in
+                 \textheight=10in
+                 \pagestyle{empty}}
+\def\myletter{\oddsidemargin=.2in
+              \evensidemargin=.2in
+              \textwidth=6in
+              \textheight=8in
+              \topmargin=-.5in
+              \baselineskip=16pt}
+
+%                 \oddsidemargin=.3in
+%                 \evensidemargin=.3in
+%                 \textwidth=5.5in}
+
+% For documents where everything is in enumerate environment  (MP)
+\def\enumber{\oddsidemargin=-.2in
+             \evensidemargin=-.2in
+             \topmargin =-.5in
+             \textheight=8.5in
+             \textwidth=6.7in
+             \parindent=0in}
+%
+% For documents where item is used to number problems  (MP)
+% Use \itemz
+%
+\def\eitem{\oddsidemargin=.05in
+             \evensidemargin=.05in
+             \topmargin =-.5in
+             \textheight=8.5in
+             \textwidth=6.5in
+             \parindent=0in}
+%
+\def\itemz#1{\par\noindent\hangindent=0mm \hskip -1.1mm \llap{#1\enspace}}
+%%
+%% Define command to pull in letterhead file.
+%% This command is specific to VAX/VMS and Arbortext dvips program.
+%% Insert your own path.
+%%
+\def\letterhead{\special{ps: plotfile [is.posner.com]letterhead.tex local}}
+%%
+%%
+%  Defines command to use OSU Letterhead paper (bottom tray of HP LaserJet)
+%
+\def\osuletterhead{\special{ps::[local]
+    statusdict begin
+    0 setpapertray
+    end}}
+%%
+%% LISTS:
+%% Define \plainlist environment
+%%
+\newenvironment{plainlist}
+{\begin{list}%
+{}{\setlength{\leftmargin}{\rightmargin}\setlength{\labelwidth}{0in}}}%
+{\end{list}}
+%%
+%%
+%% Define \indentlist environment (like plainlist but indents) MP
+%%
+\newenvironment{indentlist}
+{\begin{list}%
+{}{\setlength{\leftmargin}{7.1mm}\setlength{\labelwidth}{1in}}}%
+{\end{list}}
+%%
+%%
+%% Define \numerate environment (like enumerate but no indents) MP
+%%
+\newcounter{bean}
+\newenvironment{numerate}
+{\begin{list}%
+{\arabic{bean}.}{\usecounter{bean}\setlength{\leftmargin}{7.1mm}%
+\setlength{\rightmargin}{0pt}}}%
+{\end{list}}
+%%
+%% Define \hangref environment for hanging indentation. I MODIFY FOR MORE SPACE
+%%                                                      BETWEEN LINES
+%%
+\newenvironment{hangref}{\begin{list}{}{\setlength{\leftmargin}{+\parindent}
+\setlength{\itemindent}{-\parindent}}}{\end{list}}
+%%
+%%
+%%
+%%
+%% MATHEMATICS:
+%%
+%%
+% Equationarray.doc
+%
+% Combine the capabilities of the eqnarray environment and the array
+% environment.
+%
+% Problem: The eqnarray environment is too restrictive in that it is
+% only prepared to accept three part equations.  Some applications
+% require more sophisticated mathematics, so three parts aren't
+% enough.  Simultaneously, we would like to have our equations
+% numbered.  If the equations aren't to be numbered, then the array
+% environment suffices.  If the equations aren't to be aligned with
+% each other, then the equation environment is preferred.
+%
+% Usage:
+%
+%   \begin{equationarray}{rrcl}
+%   % Equations go here, in the same format as you would use
+%   % for arrays.
+%   \end{equationarray}
+%
+% Written by:
+%   Tony Li, University of Southern California, <tli@sargas.usc.edu>
+%   Started 6/15/88.
+%   Yes, I know this is a kludge.  Suggestions accepted.
+%
+% Notes: This was a style file.  The \makeatletter command enables it to
+%        be put in an input file.
+%
+\makeatletter
+
+\def\equationarray{\stepcounter{equation} \let\@currentlabel=\theequation
+ \global\@eqnswtrue \global\@eqcnt\z@ \global\@eqargcnt \z@ \let\\=\@equationcr
+ \let\@acol\@arrayacol \let\@classz\@eqnclassz \def\@halignto{to\displaywidth}
+ \@equationarray}
+
+\def\@equationarray#1{\setbox\@arstrutbox=\hbox{\vrule
+     height\arraystretch \ht\strutbox
+     depth\arraystretch \dp\strutbox
+     width\z@}
+     \@mkpream{#1}
+     \edef\@preamble{\halign \noexpand\@halignto
+      \bgroup \tabskip\z@ \@arstrut \@preamble
+      \hfill\tabskip\@centering &\llap{\@sharp}\tabskip\z@\cr}%
+     \let\@startpbox\@@startpbox \let\@endpbox\@@endpbox
+     \bgroup \let\par\relax
+     \let\@sharp## \let\protect\relax \lineskip\z@ \baselineskip\z@
+     \tabskip\@centering $$ % $$ BRACE MATCHING HACK
+     \@preamble
+}
+
+\def\@eqnclassz{\ifcase \@lastchclass \@acolampacol \or \@ampacol \or
+   \or \or \@addamp \or
+   \@acolampacol \or \@firstampfalse \@acol \fi
+   \global\advance\@eqargcnt\@ne
+   \edef\@preamble{\@preamble
+     \ifcase \@chnum
+     \hfil$\relax\displaystyle\tabskip\z@\@sharp$\hfil \or
+     $\relax\displaystyle\tabskip\z@\@sharp$\hfil \or
+     \hfil$\relax\displaystyle\tabskip\z@\@sharp$\fi
+     \global\advance\@eqcnt\@ne}}
+
+\def\endequationarray{\@equationcr
+\egroup\global\advance\c@equation\m@ne % $$ BRACE MATCHING HACK
+$$\tabskip\@centering\egroup\global\@ignoretrue}
+
+\def\@equationcr{${\ifnum0=`}\fi\@ifstar{\@xequationcr}{\@xequationcr}}
+\def\@xequationcr{
+    \@ifnextchar[{\@argequationcr}{\ifnum0=`{\fi}${}\@zequationcr
+     \global\@eqnswtrue\global\@eqcnt\z@\cr}}
+
+\def\@argequationcr[#1]{\ifnum0=`{\fi}${}\ifdim #1>\z@
+   \@xargequationcr{#1}\else
+   \@yargequationcr{#1}\fi}
+
+\def\@xargequationcr#1{
+   \@tempdima #1\advance\@tempdima \dp \@arstrutbox
+   \vrule \@height\z@ \@depth\@tempdima \@width\z@ \@zequationcr
+     \global\@eqnswtrue\global\@eqcnt\z@ \cr}
+
+\def\@yargequationcr#1{ \@zequationcr
+     \global\@eqnswtrue\global\@eqcnt\z@ \cr\noalign{\vskip #1}}
+
+\def\@zequationcr{\@wargequationcr\if@eqnsw\@eqnnum
+    \stepcounter{equation}\global\@eqcnt\z@\fi}
+
+\def\@wargequationcr{\ifnum\@eqcnt<\@eqargcnt
+    \@amper \@wargequationcr\fi}
+
+\def\@amper{&}
+
+\newcount\@eqargcnt
+
+\makeatother
+%%
+%%
+%%Special math symbols
+%%
+%% operators
+\def\E{{\rm E}}
+\def\Var{{\rm Var}}
+\def\Sd{{\rm Sd}}
+\def\Cov{{\rm Cov}}
+\def\Corr{{\rm Corr}}
+\def\Bias{{\rm Bias}}
+\def\MSE{{\rm MSE}}
+\def\CP{{\rm CP}}
+\def\trace{{\rm trace}}
+%%
+%% bold face roman
+\def\bA{{\bf A}}
+\def\ba{{\bf a}}
+\def\bC{{\bf C}}
+\def\bc{{\bf c}}
+\def\bD{{\bf D}}
+\def\bd{{\bf d}}
+\def\bE{{\bf E}}
+\def\be{{\bf e}}
+\def\bF{{\bf F}}
+\def\boldf{{\bf f}}
+\def\bG{{\bf G}}
+\def\bg{{\bf g}}
+\def\bH{{\bf H}}
+\def\bh{{\bf h}}
+\def\bi{{\bf i}}
+\def\bI{{\bf I}}
+\def\bJ{{\bf J}}
+\def\bj{{\bf j}}
+\def\bK{{\bf K}}
+\def\bk{{\bf k}}
+\def\bL{{\bf L}}
+\def\bl{{\bf l}}
+\def\bM{{\bf M}}
+\def\bm{{\bf m}}
+\def\bN{{\bf N}}
+\def\bn{{\bf n}}
+\def\bO{{\bf O}}
+\def\bo{{\bf o}}
+\def\bP{{\bf P}}
+\def\bp{{\bf P}}
+\def\bQ{{\bf Q}}
+\def\bq{{\bf q}}
+\def\bR{{\bf R}}
+\def\br{{\bf r}}
+\def\bS{{\bf S}}
+\def\bs{{\bf s}}
+\def\bU{{\bf U}}
+\def\bu{{\bf u}}
+\def\bV{{\bf V}}
+\def\bv{{\bf v}}
+\def\bW{{\bf W}}
+\def\bw{{\bf w}}
+\def\bX{{\bf X}}
+\def\bx{{\bf x}}
+\def\bY{{\bf Y}}
+\def\by{{\bf y}}
+\def\bZ{{\bf Z}}
+\def\bz{{\bf z}}
+%%
+%% bold face Greek (incomplete)
+\def\bbeta{\mbox{\boldmath $\beta$}}
+\def\bepsilon{\mbox{\boldmath $\epsilon$}}
+\def\bvarepsilon{\mbox{\boldmath $\varepsilon$}}
+\def\bDelta{{\bf \Delta}}
+\def\bdelta{\mbox{\boldmath $\delta$}}
+\def\boldeta{\mbox{\boldmath $\eta$}}
+\def\bGamma{{\bf \Gamma}}
+\def\bgamma{\mbox{\boldmath $\gamma$}}
+\def\bLambda{{\bf \Lambda}}
+\def\blambda{\mbox{\boldmath $\lambda$}}
+\def\bmu{\mbox{\boldmath $\mu$}}
+\def\bOmega{{\bf \Omega}}
+\def\bphi{\mbox{\boldmath $\phi$}}
+\def\bpsi{\mbox{\boldmath $\psi$}}
+\def\bSigma{{\bf \Sigma}}
+\def\bsigma{\mbox{\boldmath $\sigma$}}
+\def\bTheta{{\bf \Theta}}
+\def\btheta{\mbox{\boldmath $\theta$}}
+\def\bXi{{\bf \Xi}}
+\def\bxi{\mbox{\boldmath $\xi$}}
+%%
+%% misc. Greek with hats
+\def\betahat{\hat \beta}
+\def\bbetahat{\hat{\mbox{\boldmath $\beta$}}}
+\def\bdeltahat{\hat{\mbox{\boldmath $\delta$}}}
+\def\epsilonhat{\hat{\epsilon}}
+\def\bepsilonhat{\hat{\mbox{\boldmath $\epsilon$}}}
+\def\bgammahat{\hat{\mbox{\boldmath $\gamma$}}}
+\def\bmuhat{\hat{\mbox{\boldmath $\mu$}}}
+\def\thetahat{\hat \theta}
+%%
+%% bold face numbers
+\def\b1{{\bf 1}}
+\def\bzero{{\bf 0}}
+%%
+%% Gives period at start of proof\newtheorem{lemma}{Lemma}
+\newcommand{\pf}{\vspace{-6pt} {\noindent \bf Proof. }}
+%%
+
+%% \blot gives a square at end of formulas and proofs
+%% (thanks to Marc Posner)
+\def\blot{\quad \mbox{$\vcenter{\vbox{\hrule height.4pt
+    \hbox{\vrule width.4pt height.9ex \kern.9ex \vrule width.4pt}
+    \hrule height.4pt}}$}}
+
+\def\Box{\quad \mbox{$\vcenter{\vbox{\hrule height.4pt
+    \hbox{\vrule width.4pt height.9ex \kern.9ex \vrule width.4pt}
+    \hrule height.4pt}}$}}
+
+\def\qed{\quad \mbox{$\vcenter{\vbox{\hrule height.4pt
+    \hbox{\vrule width.4pt height.9ex \kern.9ex \vrule width.4pt}
+    \hrule height.4pt}}$}}
+%%
+
+% making set union symbol with limits look elegant
+\def\union{\mathop{\cup}\limits}
+
+%%
+%
+% Smaller headings for sections in documents
+\def\smallheads{
+\renewcommand{\Large}{\large}   % reduces to next smaller size
+\renewcommand{\LARGE}{\Large}}  % reduces to next smaller sizes
+%
+%
+% gives space before and after |
+\def\st{\: | \:}
+%
+\def\argmin{{\rm argmin}}
+\def\argmax{{\rm argmax}}
+%
+%
+%  New list macros and modified old list macros. - JJC 09/93
+%
+% gives the vector 1, 2, ..., n where the n is controllable
+\def\irow#1{1, 2, \ldots, #1}
+%
+% gives the vector 0, 1, ..., n where n is controllable
+\def\irowz#1{0, 1, \ldots, #1}
+%
+% gives the vector i = 1, 2, ..., n where i and n are controllable
+\def\irowl#1#2{#1 = 1, 2, \ldots, #2}
+%
+% gives the vector i = 0, 1, ..., n where i and n are controllable
+\def\irowlz#1#2{#1 = 0, 1, \ldots, #2}
+%
+% gives the vector x_1, x_2, ..., x_n where the x and n are controllable
+\def\row#1#2{#1_1, #1_2, \ldots, #1_{#2}}
+%
+% gives the vector x_0, x_1, ..., x_n where the x and n are controllable
+\def\rowz#1#2{#1_0, #1_1, \ldots, #1_{#2}}
+%
+% gives the vector y = x_1, x_2, ..., x_n where the y, x and n are controllable
+\def\rowl#1#2#3{#1 = #2_1, #2_2, \ldots, #2_{#3}}
+%
+% gives the vector y = x_0, x_1, ..., x_n where the y, x and n are controllable
+\def\rowlz#1#2#3{#1 = #2_0, #2_1, \ldots, #2_{#3}}
+%%%%%
+%
+% gives symbol for real line
+\def\real{I\!\!R}
+%
+%gives symbol for set of integers
+\def\integer{Z\!\!\!Z}
+%
+% \cents gives cent symbol
+\def\cents{\mbox{\hbox{\rm\rlap/c \hspace{2pt}}}}
+%
+% gives shortcut for doing et al. in italics
+\def\etal{{\em et al.\ }}
+\def\etalc{{\em et al.}, }
+%
+% {\bfnoindent} gives boldface and prevents indentation- for Theorems,
+% Proofs, etc.
+\def\bfnoindent{\bf\noindent}
+%
+% Redefines \item to give more versatility. itema=itemitem, itemb=3 items
+% where each item is 4mm
+\def\itema#1{\par\noindent\hangindent=4mm \hskip 2.4mm \llap{#1\enspace}}
+\def\itemb#1{\par\noindent\hangindent=8mm \hskip 6.4mm \llap{#1\enspace}}
+\def\itemc#1{\par\noindent\hangindent=12mm \hskip 10.4mm \llap{#1\enspace}}
+\def\itemd#1{\par\noindent\hangindent=16mm \hskip 14.4mm \llap{#1\enspace}}
+\def\iteme#1{\par\noindent\hangindent=20mm \hskip 18.4mm \llap{#1\enspace}}
+\def\itemf#1{\par\noindent\hangindent=24mm \hskip 22.4mm \llap{#1\enspace}}
+\def\itemg#1{\par\noindent\hangindent=28mm \hskip 26.4mm \llap{#1\enspace}}
+\def\itemh#1{\par\noindent\hangindent=32mm \hskip 30.4mm \llap{#1\enspace}}
+%
+% Creates hangindents for defs and slides
+\newcommand{\hangr}{\hangindent=12pt}
+\newcommand{\hangd}{\hangindent=24pt}
+%
+%
+% THESE COMMANDS ARE NO LONGER NEEDED BUT MAY EXIST IN OLD FILES
+%
+% Item used for references with no numbering
+\def\ritem{\par\noindent\hangindent=4mm \parskip=12pt}
+%
+% \bull gives a square at end of formula
+\def\bull{\quad {$\vcenter{\vbox{\hrule height.4pt
+             \hbox{\vrule width.4pt height.9ex \kern.9ex \vrule width.4pt}
+             \hrule height.4pt}}$}}
+%
+% use in displayed equations :\ebull gives a square at end of formula
+\def\ebull{\quad {\vcenter{\vbox{\hrule height.4pt
+             \hbox{\vrule width.4pt height.9ex \kern.9ex \vrule width.4pt}
+             \hrule height.4pt}}}}
+% gives a more bold *
+\def\bfast{{*\kern-.38em *}}
+%
+% gives a big *, even if subscript or superscript
+\def\bast{{\textstyle *}}
