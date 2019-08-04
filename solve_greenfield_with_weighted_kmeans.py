@@ -13,8 +13,8 @@ def solve_greenfield_with_weighted_kmeans():
     #for number_of_clusters in number_of_clusters_list:
 
     number_of_clusters = 3
-    minimum_elements_in_a_cluster = minimum_elements_in_a_cluster_ratio
-    maximum_elements_in_a_cluster = maximum_elements_in_a_cluster_ratio
+    minimum_elements_in_a_cluster = round(inputs.minimum_elements_in_a_cluster_ratio * len(inputs.customers)/number_of_clusters)
+    maximum_elements_in_a_cluster =  round(inputs.maximum_elements_in_a_cluster_ratio * len(inputs.customers)/number_of_clusters)
 
 
 
