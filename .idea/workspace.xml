@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6696089c-cb2a-4ec8-a19c-703683e96ea1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/results/customers_with_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/results/customers_with_clusters.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solve_greenfield_with_weighted_kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/solve_greenfield_with_weighted_kmeans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weighted_kmeans_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/weighted_kmeans_algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tableau/customer demand.twb" beforeDir="false" afterPath="$PROJECT_DIR$/tableau/customer demand.twb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tableau/~customer demand__10688.twbr" beforeDir="false" afterPath="$PROJECT_DIR$/tableau/~customer demand__10688.twbr" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/src/weighted_kmeans_algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="111" column="64" lean-forward="true" selection-start-line="111" selection-start-column="64" selection-end-line="111" selection-end-column="64" />
+              <caret line="111" column="64" selection-start-line="111" selection-start-column="64" selection-end-line="111" selection-end-column="64" />
               <folding>
                 <element signature="e#53#59#0" expanded="true" />
               </folding>
@@ -74,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/solve_greenfield_with_weighted_kmeans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="513">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#60#66#0" expanded="true" />
               </folding>
@@ -137,27 +133,6 @@
             <path>
               <item name="Greenfield_With_Weighted_Kmeans" type="b2602c69:ProjectViewProjectNode" />
               <item name="Greenfield_With_Weighted_Kmeans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Greenfield_With_Weighted_Kmeans" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Greenfield_With_Weighted_Kmeans" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Greenfield_With_Weighted_Kmeans" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Greenfield_With_Weighted_Kmeans" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="results" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Greenfield_With_Weighted_Kmeans" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Greenfield_With_Weighted_Kmeans" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Greenfield_With_Weighted_Kmeans" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Greenfield_With_Weighted_Kmeans" type="462c0819:PsiDirectoryNode" />
-              <item name="tableau" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Greenfield_With_Weighted_Kmeans" type="b2602c69:ProjectViewProjectNode" />
@@ -267,7 +242,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565130402283</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added main.">
+      <created>1565130866374</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1565130866374</updated>
+    </task>
+    <task id="LOCAL-00008" summary="New solution">
+      <created>1565131003087</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565131003089</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -285,7 +274,7 @@
     <layout>
       <window_info id="DB Browser" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2498621" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2498621" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" order="0" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32917964" />
@@ -293,7 +282,7 @@
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -315,7 +304,9 @@
     <MESSAGE value="Updated model code" />
     <MESSAGE value="Added results" />
     <MESSAGE value="Added main." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added main." />
+    <MESSAGE value="New solution" />
+    <MESSAGE value="Updated tableau" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated tableau" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/haversine_distance.py">
@@ -355,7 +346,7 @@
     <entry file="file://$PROJECT_DIR$/src/weighted_kmeans_algorithm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="111" column="64" lean-forward="true" selection-start-line="111" selection-start-column="64" selection-end-line="111" selection-end-column="64" />
+          <caret line="111" column="64" selection-start-line="111" selection-start-column="64" selection-end-line="111" selection-end-column="64" />
           <folding>
             <element signature="e#53#59#0" expanded="true" />
           </folding>
@@ -364,8 +355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solve_greenfield_with_weighted_kmeans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="513">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#60#66#0" expanded="true" />
           </folding>
