@@ -1,3 +1,7 @@
+'''
+Formulate and solve depot-customer allocation model
+'''
+
 import pandas as pd
 import collections
 from ortools.linear_solver import pywraplp
@@ -31,7 +35,7 @@ def formulate_and_solve_ortools_model(customer_cluster_distance_matrix, minimum_
     # create variables #
     y = {}
     for cluster, customer in distance.keys():
-        y[cluster, customer] = solver.BoolVar('y[{}, {}]'.format(str(cluster), str(customer)))
+        y[cluster, customer] = solver.BoolVar('y[cluster = {}, {}]'.format(str(cluster), customer))
 
     # Add constraints
     # each store is assigned to one cluster
@@ -65,16 +69,16 @@ def formulate_and_solve_ortools_model(customer_cluster_distance_matrix, minimum_
         print('Problem solved in {} iterations'.format(str(solver.Iterations())))
 
         solution_final = []
-        for store, cluster in distance.keys():
-            solution_final.append({'STORE': store,
-                                   'CLUSTER': cluster,
-                                   'VALUE': y[store, cluster].solution_value(),
-                                   'WEIGHTED_DISTANCE': distance[store, cluster]})
+        for cluster, customer in distance.keys():
+            solution_final.append({'CLUSTER': cluster,
+                                   'CUSTOMER_NAME': customer,
+                                   'VALUE': y[cluster, customer].solution_value(),
+                                   'WEIGHTED_DISTANCE': distance[cluster, customer].WEIGHTED_DISTANCE})
 
         solution = pd.DataFrame(solution_final)
 
         solution = solution[solution['VALUE'] == 1]
-        solution = solution[['STORE', 'CLUSTER', 'WEIGHTED_DISTANCE']]
+        solution = solution[['CLUSTER', 'CUSTOMER_NAME', 'WEIGHTED_DISTANCE']]
 
     else:
 

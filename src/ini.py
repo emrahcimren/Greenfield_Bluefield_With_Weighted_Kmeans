@@ -24,6 +24,8 @@ class IniInput(object):
                 'MINIMUM_ELEMENTS_IN_A_CLUSTER_RATIO'])
             self.maximum_elements_in_a_cluster_ratio = float(self.config['GREENFIELD_INPUTS'][
                 'MAXIMUM_ELEMENTS_IN_A_CLUSTER_RATIO'])
+            self.objective_range = float(self.config['GREENFIELD_INPUTS']['OBJECTIVE_RANGE'])
+            self.max_iterations = int(self.config['GREENFIELD_INPUTS']['MAXIMUM_ITERATIONS'])
 
         else:
             raise ValueError('Update Ini file format')
