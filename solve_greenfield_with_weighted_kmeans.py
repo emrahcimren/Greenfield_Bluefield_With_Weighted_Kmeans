@@ -30,7 +30,7 @@ def solve_greenfield_with_weighted_kmeans():
         customers_with_clusters['NUMBER_OF_CLUSTERS'] = number_of_clusters
 
         all_clusters.append(clusters)
-        all_customers_with_clusters.append(all_customers_with_clusters)
+        all_customers_with_clusters.append(customers_with_clusters)
 
     all_clusters = pd.concat(all_clusters)
     all_customers_with_clusters = pd.concat(all_customers_with_clusters)
