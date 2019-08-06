@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6696089c-cb2a-4ec8-a19c-703683e96ea1" name="Default Changelist" comment="Added algorithm step 1">
-      <change afterPath="$PROJECT_DIR$/.idea/Greenfield_With_Weighted_Kmeans.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6696089c-cb2a-4ec8-a19c-703683e96ea1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/results/customers_with_clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/results/customers_with_clusters.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solve_greenfield_with_weighted_kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/solve_greenfield_with_weighted_kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/weighted_kmeans_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/weighted_kmeans_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tableau/customer demand.twb" beforeDir="false" afterPath="$PROJECT_DIR$/tableau/customer demand.twb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tableau/~customer demand__10688.twbr" beforeDir="false" afterPath="$PROJECT_DIR$/tableau/~customer demand__10688.twbr" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/weighted_kmeans_algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="405">
+              <caret line="111" column="64" lean-forward="true" selection-start-line="111" selection-start-column="64" selection-end-line="111" selection-end-column="64" />
               <folding>
                 <element signature="e#53#59#0" expanded="true" />
               </folding>
@@ -76,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/solve_greenfield_with_weighted_kmeans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+            <state relative-caret-position="462">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="e#60#66#0" expanded="true" />
               </folding>
@@ -114,9 +112,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/haversine_distance.py" />
         <option value="$PROJECT_DIR$/src/depo_customer_allocation_or_tools_model.py" />
-        <option value="$PROJECT_DIR$/src/weighted_kmeans_algorithm.py" />
         <option value="$PROJECT_DIR$/inputs.ini" />
         <option value="$PROJECT_DIR$/src/ini.py" />
+        <option value="$PROJECT_DIR$/src/weighted_kmeans_algorithm.py" />
         <option value="$PROJECT_DIR$/solve_greenfield_with_weighted_kmeans.py" />
       </list>
     </option>
@@ -143,6 +141,17 @@
             <path>
               <item name="Greenfield_With_Weighted_Kmeans" type="b2602c69:ProjectViewProjectNode" />
               <item name="Greenfield_With_Weighted_Kmeans" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Greenfield_With_Weighted_Kmeans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Greenfield_With_Weighted_Kmeans" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Greenfield_With_Weighted_Kmeans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Greenfield_With_Weighted_Kmeans" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -161,6 +170,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -175,6 +185,34 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="solve_greenfield_with_weighted_kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Greenfield_With_Weighted_Kmeans" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/solve_greenfield_with_weighted_kmeans.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.solve_greenfield_with_weighted_kmeans" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -222,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565130205736</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added results">
+      <created>1565130402283</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1565130402283</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -243,17 +288,17 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2498621" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" order="0" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32917964" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32917964" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32917964" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="11" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32917964" />
       <window_info anchor="right" id="JuliaSciView" weight="0.32984003" />
       <window_info anchor="right" id="R Packages" />
       <window_info anchor="right" id="R Graphics" />
@@ -268,7 +313,9 @@
     <MESSAGE value="Added ini; initiation" />
     <MESSAGE value="Added algorithm step 1" />
     <MESSAGE value="Updated model code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated model code" />
+    <MESSAGE value="Added results" />
+    <MESSAGE value="Added main." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added main." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/haversine_distance.py">
@@ -291,16 +338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/weighted_kmeans_algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#53#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inputs.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -315,10 +352,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/weighted_kmeans_algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="111" column="64" lean-forward="true" selection-start-line="111" selection-start-column="64" selection-end-line="111" selection-end-column="64" />
+          <folding>
+            <element signature="e#53#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/solve_greenfield_with_weighted_kmeans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+        <state relative-caret-position="462">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#60#66#0" expanded="true" />
           </folding>

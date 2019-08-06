@@ -79,6 +79,7 @@ def run_weighted_kmeans_algorithm(customers, number_of_clusters, minimum_element
     prev_objective, prev_clusters, prev_customers_at_iteration_with_clusters = __initiate_weighted_kmeans_algorithm(
         iteration, customers.copy(), number_of_clusters)
     prev_clusters['ITERATION'] = iteration
+    prev_customers_at_iteration_with_clusters['SOLUTION'] = 0
 
     all_clusters.append(prev_clusters)
     all_customers_with_clusters.append(prev_customers_at_iteration_with_clusters)
@@ -108,6 +109,7 @@ def run_weighted_kmeans_algorithm(customers, number_of_clusters, minimum_element
             customers_at_iteration_with_clusters = customers_at_iteration_with_clusters.merge(clusters, how='left',
                                                                                               on=['CLUSTER'])
             customers_at_iteration_with_clusters['ITERATION'] = iteration
+            customers_at_iteration_with_clusters['SOLUTION'] = 0
 
             customers_at_iteration_with_clusters = customers_at_iteration_with_clusters[
                 prev_customers_at_iteration_with_clusters.columns]
@@ -118,10 +120,12 @@ def run_weighted_kmeans_algorithm(customers, number_of_clusters, minimum_element
             if abs(objective - prev_objective) < objective_range:
                 print('Solution found')
                 solution_not_found = False
+                prev_customers_at_iteration_with_clusters['SOLUTION'] = 1
 
             elif (prev_objective < objective) and iteration > max_iteration:
                 print('Stopping')
                 solution_not_found = False
+                prev_customers_at_iteration_with_clusters['SOLUTION'] = 1
 
             else:
                 prev_objective = objective

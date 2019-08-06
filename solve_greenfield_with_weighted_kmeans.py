@@ -37,3 +37,7 @@ def solve_greenfield_with_weighted_kmeans():
 
     all_clusters.to_csv('data/results/clusters.csv', index=False)
     all_customers_with_clusters.to_csv('data/results/customers_with_clusters.csv', index=False)
+
+
+if __name__ == '__main__':
+    solve_greenfield_with_weighted_kmeans()
