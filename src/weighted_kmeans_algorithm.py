@@ -27,7 +27,7 @@ def __calculate_cluster_centers(customers_at_iteration_with_clusters):
 
 
 def __calculate_weighted_distance(customers_at_iteration_with_clusters):
-    distance = haversine_distance.get_santa_haversine_distance(customers_at_iteration_with_clusters['LATITUDE'],
+    distance = haversine_distance.calculate_haversine_distance(customers_at_iteration_with_clusters['LATITUDE'],
                                                                customers_at_iteration_with_clusters['LONGITUDE'],
                                                                customers_at_iteration_with_clusters['CLUSTER_LATITUDE'],
                                                                customers_at_iteration_with_clusters[
