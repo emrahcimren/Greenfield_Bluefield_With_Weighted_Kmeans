@@ -4,7 +4,7 @@ File to implement weighted KMeans algorithm
 
 import pandas as pd
 from src import haversine_distance
-from src import depo_customer_allocation_or_tools_model as ort
+from src import depot_customer_allocation_or_tools_model as ort
 
 
 def __calculate_cluster_centers(customers_at_iteration_with_clusters):
