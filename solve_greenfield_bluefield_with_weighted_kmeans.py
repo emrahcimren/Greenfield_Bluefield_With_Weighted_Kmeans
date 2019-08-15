@@ -7,9 +7,10 @@ from src import ini
 from src import weighted_kmeans_algorithm as wka
 
 
-def solve_greenfield_with_weighted_kmeans():
+def solve_greenfield_bluefield_with_weighted_kmeans():
     inputs = ini.IniInput('inputs.ini')
     number_of_clusters_list = range(inputs.minimum_number_of_clusters, inputs.maximum_number_of_clusters)
+    initial_cluster = wka.create_initial_clusters(inputs.use_current_clusters, inputs.current_clusters)
 
     all_clusters = []
     all_customers_with_clusters = []
@@ -21,7 +22,10 @@ def solve_greenfield_with_weighted_kmeans():
         maximum_elements_in_a_cluster = round(
             inputs.maximum_elements_in_a_cluster_ratio * len(inputs.customers) / number_of_clusters)
 
-        clusters, customers_with_clusters = wka.run_weighted_kmeans_algorithm(inputs.customers, number_of_clusters,
+        clusters = wka.initiate_clusters(initial_cluster, number_of_clusters)
+
+        clusters, customers_with_clusters = wka.run_weighted_kmeans_algorithm(inputs.customers, clusters,
+                                                                              number_of_clusters,
                                                                               minimum_elements_in_a_cluster,
                                                                               maximum_elements_in_a_cluster,
                                                                               inputs.objective_range,
@@ -35,9 +39,9 @@ def solve_greenfield_with_weighted_kmeans():
     all_clusters = pd.concat(all_clusters)
     all_customers_with_clusters = pd.concat(all_customers_with_clusters)
 
-    all_clusters.to_csv('data/results/clusters.csv', index=False)
-    all_customers_with_clusters.to_csv('data/results/customers_with_clusters.csv', index=False)
+    all_clusters.to_csv('data/results_greenfield_bluefield/clusters.csv', index=False)
+    all_customers_with_clusters.to_csv('data/results_greenfield_bluefield/customers_with_clusters.csv', index=False)
 
 
 if __name__ == '__main__':
-    solve_greenfield_with_weighted_kmeans()
+    solve_greenfield_bluefield_with_weighted_kmeans()

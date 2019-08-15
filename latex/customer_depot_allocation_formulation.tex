@@ -54,6 +54,8 @@
 
     Let $a_{ij}$ be the distance from the center $i \in D$ to customer $j \in C$.
 
+    Let $\alpha_{i}$ be the maximum distance covered by the center $i \in D$.
+
     Let $u^{-}_{i}$ be the minimum number of stores can be allocated to center $i \in D$.
 
     Let $u^{+}_{i}$ be the maximum number of stores can be allocated to center $i \in D$.
@@ -82,6 +84,7 @@
     \begin{equationarray}{rrrlll}
 
         \mbox{subject to} & \sum_{i \in D}y_{ij} & = & 1, & \forall j\in C, \label{model:each customer to center}\\[18pt]
+                        & y_{ij} & \le & \alpha_{i}, & \forall i \in D, j\in C, \label{model: max distance}\\[18pt]
                         & \sum_{j \in C} y_{ij} & \ge & u^{-}_{i}, & \forall i \in D, \label{model: min customers by center}\\[18pt]
                         & \sum_{j \in C} y_{ij} & \le & u^{+}_{i}, & \forall i \in D, \label{model: max customers by center}\\[18pt]
                         & y_{ij} & \in & \{0, 1\}, & \forall i \in D, j\in C. \label{model: variable binary}
@@ -89,6 +92,7 @@
 
     The objective of the model (\ref{model:objective}) minimizes the total weighted distance.
     Constraint (\ref{model:each customer to center}) ensures that each customer is allocated to a center.
+    There exists a maximum distance can be covered by each center (\ref{model: max distance}).
     Each center has minimum and maximum number of allocated customers as in (\ref{model: min customers by center})
     and (\ref{model: max customers by center}), respectively.
     Center to customer allocation is binaries as in (\ref{model: variable binary}).
