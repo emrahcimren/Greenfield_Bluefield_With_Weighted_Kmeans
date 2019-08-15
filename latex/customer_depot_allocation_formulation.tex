@@ -84,7 +84,7 @@
     \begin{equationarray}{rrrlll}
 
         \mbox{subject to} & \sum_{i \in D}y_{ij} & = & 1, & \forall j\in C, \label{model:each customer to center}\\[18pt]
-                        & y_{ij} & \le & \alpha_{i}, & \forall i \in D, j\in C, \label{model: max distance}\\[18pt]
+                        & a_{ij} y_{ij} & \le & \alpha_{i}, & \forall i \in D, j\in C, \label{model: max distance}\\[18pt]
                         & \sum_{j \in C} y_{ij} & \ge & u^{-}_{i}, & \forall i \in D, \label{model: min customers by center}\\[18pt]
                         & \sum_{j \in C} y_{ij} & \le & u^{+}_{i}, & \forall i \in D, \label{model: max customers by center}\\[18pt]
                         & y_{ij} & \in & \{0, 1\}, & \forall i \in D, j\in C. \label{model: variable binary}
