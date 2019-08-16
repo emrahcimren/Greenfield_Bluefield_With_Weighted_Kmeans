@@ -8,6 +8,7 @@ from src import ini
 from src import logger
 from src import weighted_kmeans_algorithm as wka
 
+# TODO: Fix tests
 
 def solve_greenfield_bluefield_with_weighted_kmeans():
     '''

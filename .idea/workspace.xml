@@ -4,15 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/weighted_kmeans_algorithm.py" line="178" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6696089c-cb2a-4ec8-a19c-703683e96ea1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/logger.py" afterDir="false" />
+    <list default="true" id="6696089c-cb2a-4ec8-a19c-703683e96ea1" name="Default Changelist" comment="Added brownfield">
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inputs.ini" beforeDir="false" afterPath="$PROJECT_DIR$/inputs.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/depot_customer_allocation_or_tools_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/depot_customer_allocation_or_tools_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ini.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ini.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weighted_kmeans_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/weighted_kmeans_algorithm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tableau/customer demand.twb" beforeDir="false" afterPath="$PROJECT_DIR$/tableau/customer demand.twb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,58 +26,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inputs.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="56" column="97" lean-forward="true" selection-start-line="56" selection-start-column="97" selection-end-line="56" selection-end-column="97" />
-              <folding>
-                <element signature="e#60#79#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/logger.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-              <folding>
-                <element signature="e#77#91#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/depot_customer_allocation_or_tools_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1972">
-              <caret line="116" selection-start-line="116" selection-end-line="116" />
-              <folding>
-                <element signature="e#61#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ini.py">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+              <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#36#50#0" expanded="true" />
+                <element signature="e#60#79#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,6 +102,7 @@
         <option value="$PROJECT_DIR$/inputs.ini" />
         <option value="$PROJECT_DIR$/src/weighted_kmeans_algorithm.py" />
         <option value="$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -173,6 +133,11 @@
               <item name="Greenfield_With_Weighted_Kmeans" type="b2602c69:ProjectViewProjectNode" />
               <item name="Greenfield_With_Weighted_Kmeans" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Greenfield_With_Weighted_Kmeans" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Greenfield_With_Weighted_Kmeans" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Greenfield_With_Weighted_Kmeans" type="b2602c69:ProjectViewProjectNode" />
@@ -209,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.solve_greenfield_bluefield_with_weighted_kmeans">
+  <component name="RunManager" selected="Python tests.Nosetests in test_weighted_kmeans_algorithm.py">
     <configuration name="customer_depot_allocation_formulation bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler>BIBTEX</compiler>
@@ -303,11 +268,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.solve_greenfield_bluefield_with_weighted_kmeans" />
-        <item itemvalue="LaTeX.customer_depot_allocation_formulation" />
-        <item itemvalue="Python tests.Nosetests in test_depot_customer_allocation_or_tools_model.py" />
         <item itemvalue="Python tests.Nosetests in test_weighted_kmeans_algorithm.py" />
         <item itemvalue="Python tests.Nosetests in test_haversine_distance.py" />
+        <item itemvalue="Python tests.Nosetests in test_depot_customer_allocation_or_tools_model.py" />
+        <item itemvalue="Python.solve_greenfield_bluefield_with_weighted_kmeans" />
+        <item itemvalue="LaTeX.customer_depot_allocation_formulation" />
       </list>
     </recent_temporary>
   </component>
@@ -420,16 +385,17 @@
       <option name="project" value="LOCAL" />
       <updated>1565854982786</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added brownfield">
+      <created>1565985936090</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1565985936091</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_in_test_haversine_distance_py - 2019.08.13 at 22h 59m 59s.xml">
-      <configuration name="Nosetests in test_haversine_distance.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_in_test_haversine_distance_py - 2019.08.13 at 23h 00m 09s.xml">
-      <configuration name="Nosetests in test_haversine_distance.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Nosetests_in_test_haversine_distance_py - 2019.08.13 at 23h 00m 51s.xml">
       <configuration name="Nosetests in test_haversine_distance.py" configurationId="tests" />
     </history-entry>
@@ -450,6 +416,15 @@
     </history-entry>
     <history-entry file="Nosetests_in_test_depot_customer_allocation_or_tools_model_py - 2019.08.13 at 23h 26m 59s.xml">
       <configuration name="Nosetests in test_depot_customer_allocation_or_tools_model.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_depot_customer_allocation_or_tools_model_py - 2019.08.16 at 13h 05m 41s.xml">
+      <configuration name="Nosetests in test_depot_customer_allocation_or_tools_model.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_haversine_distance_py - 2019.08.16 at 13h 05m 56s.xml">
+      <configuration name="Nosetests in test_haversine_distance.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_weighted_kmeans_algorithm_py - 2019.08.16 at 13h 06m 02s.xml">
+      <configuration name="Nosetests in test_weighted_kmeans_algorithm.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -475,7 +450,7 @@
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -587,16 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-          <folding>
-            <element signature="e#77#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ini.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -617,6 +582,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+          <folding>
+            <element signature="e#77#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#60#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/inputs.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -631,13 +616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="56" column="97" lean-forward="true" selection-start-line="56" selection-start-column="97" selection-end-line="56" selection-end-column="97" />
-          <folding>
-            <element signature="e#60#79#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
