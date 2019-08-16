@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/weighted_kmeans_algorithm.py" line="178" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6696089c-cb2a-4ec8-a19c-703683e96ea1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/logger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inputs.ini" beforeDir="false" afterPath="$PROJECT_DIR$/inputs.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/latex/customer_depot_allocation_formulation.tex" beforeDir="false" afterPath="$PROJECT_DIR$/latex/customer_depot_allocation_formulation.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solve_greenfield_with_weighted_kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/depot_customer_allocation_or_tools_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/depot_customer_allocation_or_tools_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ini.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ini.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/weighted_kmeans_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/weighted_kmeans_algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tableau/customer demand.twb" beforeDir="false" afterPath="$PROJECT_DIR$/tableau/customer demand.twb" afterDir="false" />
@@ -21,11 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/weighted_kmeans_algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
-              <folding>
-                <element signature="e#53#72#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="308">
+              <caret line="236" lean-forward="true" selection-start-line="236" selection-end-line="236" />
             </state>
           </provider>
         </entry>
@@ -33,17 +34,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inputs.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="68">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            <state relative-caret-position="697">
+              <caret line="56" column="97" lean-forward="true" selection-start-line="56" selection-start-column="97" selection-end-line="56" selection-end-column="97" />
               <folding>
                 <element signature="e#60#79#0" expanded="true" />
               </folding>
@@ -52,62 +53,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/latex/latexmacro.tex">
+        <entry file="file://$PROJECT_DIR$/src/logger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/latex/customer_depot_allocation_formulation.tex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="94" column="94" lean-forward="true" selection-start-line="94" selection-start-column="94" selection-end-line="94" selection-end-column="94" />
+            <state relative-caret-position="391">
+              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
               <folding>
-                <element signature="e#994#997#2" expanded="true" />
-                <element signature="e#1055#1058#2" expanded="true" />
-                <element signature="e#1077#1080#2" expanded="true" />
-                <element signature="e#1099#1105#2" expanded="true" />
-                <element signature="e#1154#1157#2" expanded="true" />
-                <element signature="e#1246#1249#2" expanded="true" />
-                <element signature="e#1337#1340#2" expanded="true" />
-                <element signature="e#1410#1413#2" expanded="true" />
-                <element signature="e#1431#1434#2" expanded="true" />
+                <element signature="e#77#91#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_haversine_distance.py">
+        <entry file="file://$PROJECT_DIR$/src/depot_customer_allocation_or_tools_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/haversine_distance.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="1972">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#61#67#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_depot_customer_allocation_or_tools_model.py">
+        <entry file="file://$PROJECT_DIR$/src/ini.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="136">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding>
-                <element signature="e#54#69#0" expanded="true" />
+                <element signature="e#36#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,11 +99,23 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>__initiate_weighted_kmeans_algorithm</find>
       <find>Key</find>
       <find>0__initiate_weighted_kmeans_algorithm</find>
       <find>clusters</find>
+      <find>calculate_distance_matrix</find>
+      <find>calculate_weighted_distance</find>
+      <find>solve_greenfield_bluefield_with_weighted_kmeans</find>
+      <find>DISTANCE</find>
+      <find>Optimal solution is found</find>
       <find>__calculate_cluster_centers</find>
+      <find>initial_cluster</find>
+      <find>Merging new clusters with the existing</find>
+      <find>Calculating cluster centers</find>
+      <find>__initiate_weighted_kmeans_algorithm</find>
+      <find>initiate_clusters</find>
+      <find>prev_customers_at_iteration_with_clusters</find>
+      <find>FIXED</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,11 +136,13 @@
         <option value="$PROJECT_DIR$/test/test_haversine_distance.py" />
         <option value="$PROJECT_DIR$/test/test_weighted_kmeans_algorithm.py" />
         <option value="$PROJECT_DIR$/test/test_depot_customer_allocation_or_tools_model.py" />
-        <option value="$PROJECT_DIR$/inputs.ini" />
+        <option value="$PROJECT_DIR$/latex/customer_depot_allocation_formulation.tex" />
+        <option value="$PROJECT_DIR$/src/logger.py" />
         <option value="$PROJECT_DIR$/src/ini.py" />
+        <option value="$PROJECT_DIR$/src/depot_customer_allocation_or_tools_model.py" />
+        <option value="$PROJECT_DIR$/inputs.ini" />
         <option value="$PROJECT_DIR$/src/weighted_kmeans_algorithm.py" />
         <option value="$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py" />
-        <option value="$PROJECT_DIR$/latex/customer_depot_allocation_formulation.tex" />
       </list>
     </option>
   </component>
@@ -168,7 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,22 +167,12 @@
             <path>
               <item name="Greenfield_With_Weighted_Kmeans" type="b2602c69:ProjectViewProjectNode" />
               <item name="Greenfield_With_Weighted_Kmeans" type="462c0819:PsiDirectoryNode" />
-              <item name="latex" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Greenfield_With_Weighted_Kmeans" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Greenfield_With_Weighted_Kmeans" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Greenfield_With_Weighted_Kmeans" type="b2602c69:ProjectViewProjectNode" />
               <item name="Greenfield_With_Weighted_Kmeans" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Greenfield_With_Weighted_Kmeans" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Greenfield_With_Weighted_Kmeans" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Greenfield_With_Weighted_Kmeans" type="b2602c69:ProjectViewProjectNode" />
@@ -204,6 +182,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="LaTeX.customer_depot_allocation_formulation">
+  <component name="RunManager" selected="Python.solve_greenfield_bluefield_with_weighted_kmeans">
     <configuration name="customer_depot_allocation_formulation bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler>BIBTEX</compiler>
@@ -324,8 +303,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="LaTeX.customer_depot_allocation_formulation" />
         <item itemvalue="Python.solve_greenfield_bluefield_with_weighted_kmeans" />
+        <item itemvalue="LaTeX.customer_depot_allocation_formulation" />
         <item itemvalue="Python tests.Nosetests in test_depot_customer_allocation_or_tools_model.py" />
         <item itemvalue="Python tests.Nosetests in test_weighted_kmeans_algorithm.py" />
         <item itemvalue="Python tests.Nosetests in test_haversine_distance.py" />
@@ -427,7 +406,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565764066741</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Updated">
+      <created>1565854784203</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1565854784203</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated">
+      <created>1565854982785</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1565854982786</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -472,7 +465,7 @@
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26350605" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2662624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -482,8 +475,8 @@
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32917964" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32917964" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32917964" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.32917964" />
@@ -508,7 +501,20 @@
     <MESSAGE value="Updated tableau" />
     <MESSAGE value="Added testst" />
     <MESSAGE value="Model test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Model test" />
+    <MESSAGE value="Updated" />
+    <MESSAGE value="Added brownfield" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added brownfield" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/ini.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/test_weighted_kmeans_algorithm.py">
@@ -518,13 +524,6 @@
           <folding>
             <element signature="e#55#70#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/depot_customer_allocation_or_tools_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
@@ -555,40 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ini.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="107" lean-forward="true" selection-start-line="24" selection-start-column="107" selection-end-line="24" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inputs.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/weighted_kmeans_algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
-          <folding>
-            <element signature="e#53#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-          <folding>
-            <element signature="e#60#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/latex/latexmacro.tex">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -598,18 +563,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/latex/customer_depot_allocation_formulation.tex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="94" column="94" lean-forward="true" selection-start-line="94" selection-start-column="94" selection-end-line="94" selection-end-column="94" />
+        <state relative-caret-position="768">
+          <caret line="87" column="88" selection-start-line="87" selection-start-column="88" selection-end-line="87" selection-end-column="88" />
           <folding>
             <element signature="e#994#997#2" expanded="true" />
             <element signature="e#1055#1058#2" expanded="true" />
             <element signature="e#1077#1080#2" expanded="true" />
-            <element signature="e#1099#1105#2" expanded="true" />
-            <element signature="e#1154#1157#2" expanded="true" />
-            <element signature="e#1246#1249#2" expanded="true" />
-            <element signature="e#1337#1340#2" expanded="true" />
-            <element signature="e#1410#1413#2" expanded="true" />
-            <element signature="e#1431#1434#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/miniconda3/envs/rdc_network_optimization/Lib/site-packages/pandas/core/reshape/merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="994" column="49" lean-forward="true" selection-start-line="994" selection-start-column="49" selection-end-line="994" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/miniconda3/envs/rdc_network_optimization/Lib/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="6378" selection-start-line="6378" selection-end-line="6378" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+          <folding>
+            <element signature="e#77#91#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ini.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <element signature="e#36#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/depot_customer_allocation_or_tools_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#61#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputs.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/weighted_kmeans_algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="236" lean-forward="true" selection-start-line="236" selection-end-line="236" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="56" column="97" lean-forward="true" selection-start-line="56" selection-start-column="97" selection-end-line="56" selection-end-column="97" />
+          <folding>
+            <element signature="e#60#79#0" expanded="true" />
           </folding>
         </state>
       </provider>
