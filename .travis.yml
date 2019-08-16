@@ -1,9 +1,5 @@
 language: python
-
 python:
-
   - "3.6"
-
 script:
-
-  - python test/test_weighted_kmeans_algorithm.py
+  - python test_weighted_kmeans_algorithm.py

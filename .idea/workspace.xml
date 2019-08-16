@@ -4,10 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/weighted_kmeans_algorithm.py" line="178" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6696089c-cb2a-4ec8-a19c-703683e96ea1" name="Default Changelist" comment="Added brownfield">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+    <list default="true" id="6696089c-cb2a-4ec8-a19c-703683e96ea1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,20 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#60#79#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -392,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565985936091</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added CI CD integration">
+      <created>1565986379504</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1565986379504</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -440,17 +434,17 @@
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2662624" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2662624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="DB Execution Console" order="0" weight="0.32917964" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32917964" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="1" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32917964" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -463,6 +457,32 @@
       <window_info anchor="right" id="R Graphics" order="4" weight="0.3296582" />
       <window_info anchor="right" id="R Packages" order="5" weight="0.3296582" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added data and Tableau file" />
@@ -478,7 +498,8 @@
     <MESSAGE value="Model test" />
     <MESSAGE value="Updated" />
     <MESSAGE value="Added brownfield" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added brownfield" />
+    <MESSAGE value="Added CI CD integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CI CD integration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -592,16 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#60#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inputs.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -616,10 +627,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        <state relative-caret-position="68">
+          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
         </state>
       </provider>
     </entry>
