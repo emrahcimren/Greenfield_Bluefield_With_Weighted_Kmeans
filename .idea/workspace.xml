@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6696089c-cb2a-4ec8-a19c-703683e96ea1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/weighted_kmeans_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/weighted_kmeans_algorithm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_weighted_kmeans_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_weighted_kmeans_algorithm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/weighted_kmeans_algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="289" column="17" lean-forward="true" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="17" />
+            <state relative-caret-position="342">
+              <caret line="280" column="40" lean-forward="true" selection-start-line="280" selection-start-column="40" selection-end-line="280" selection-end-column="40" />
               <folding>
                 <element signature="e#53#67#0" expanded="true" />
               </folding>
@@ -69,13 +66,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_weighted_kmeans_algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            <state relative-caret-position="136">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               <folding>
-                <element signature="e#167#182#0" expanded="true" />
+                <element signature="e#54#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,18 +104,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/logger.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="14" />
-              <folding>
-                <element signature="e#77#91#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -163,6 +148,7 @@
       <find>collections</find>
       <find>ortools</find>
       <find>New clusters</find>
+      <find>LATITUDE_LONGITUDE</find>
     </findStrings>
     <replaceStrings>
       <replace>==</replace>
@@ -194,8 +180,8 @@
         <option value="$PROJECT_DIR$/requirements_old.txt" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/test/test_weighted_kmeans_algorithm.py" />
         <option value="$PROJECT_DIR$/src/weighted_kmeans_algorithm.py" />
+        <option value="$PROJECT_DIR$/test/test_weighted_kmeans_algorithm.py" />
       </list>
     </option>
   </component>
@@ -363,9 +349,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Nosetests in test_weighted_kmeans_algorithm.py" />
+        <item itemvalue="Python.solve_greenfield_bluefield_with_weighted_kmeans" />
         <item itemvalue="Python tests.Nosetests in test_haversine_distance.py" />
         <item itemvalue="Python tests.Nosetests in test_depot_customer_allocation_or_tools_model.py" />
-        <item itemvalue="Python.solve_greenfield_bluefield_with_weighted_kmeans" />
         <item itemvalue="LaTeX.customer_depot_allocation_formulation" />
       </list>
     </recent_temporary>
@@ -528,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566189456968</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Updated tests">
+      <created>1566190677105</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1566190677107</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -576,7 +569,7 @@
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2662624" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2662624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -586,7 +579,7 @@
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32917964" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -644,7 +637,8 @@
     <MESSAGE value="Add requirements txt" />
     <MESSAGE value="Updated requirements.txt" />
     <MESSAGE value="Update .yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update .yml" />
+    <MESSAGE value="Updated tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -786,16 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_weighted_kmeans_algorithm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-          <folding>
-            <element signature="e#167#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solve_greenfield_bluefield_with_weighted_kmeans.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -806,12 +790,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/current_depots.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/weighted_kmeans_algorithm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="289" column="17" lean-forward="true" selection-start-line="289" selection-start-column="17" selection-end-line="289" selection-end-column="17" />
+        <state relative-caret-position="342">
+          <caret line="280" column="40" lean-forward="true" selection-start-line="280" selection-start-column="40" selection-end-line="280" selection-end-column="40" />
           <folding>
             <element signature="e#53#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_weighted_kmeans_algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#54#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
