@@ -6,7 +6,7 @@ import unittest
 import pandas as pd
 import os
 import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'src')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..')))
 from src import weighted_kmeans_algorithm as wkm
 
 
