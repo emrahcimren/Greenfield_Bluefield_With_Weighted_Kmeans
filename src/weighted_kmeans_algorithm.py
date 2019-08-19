@@ -161,7 +161,7 @@ def initiate_clusters(initial_cluster, number_of_clusters):
 
     if initial_cluster is not None:
 
-        logging.info('Initial clusters exist ')
+        logging.info('Initial clusters exist')
         cluster = initial_cluster.copy()
         idx_start = max(initial_cluster['CLUSTER'].astype(int))
         number_of_new_clusters = number_of_clusters - len(initial_cluster)
@@ -269,7 +269,7 @@ def run_weighted_kmeans_algorithm(customers, clusters, number_of_clusters, minim
             customers_at_iteration_with_clusters['SOLUTION'] = 0
 
             customers_at_iteration_with_clusters = customers_at_iteration_with_clusters[
-                ['CUSTOMER_NAME', 'LATITUDE', 'LONGITUDE', 'DEMAND', 'LATITUDE_LONGITUDE',
+                ['CUSTOMER_NAME', 'LATITUDE', 'LONGITUDE', 'DEMAND',
                  'CLUSTER', 'CLUSTER_NAME', 'CLUSTER_LATITUDE', 'CLUSTER_LONGITUDE',
                  'TYPE', 'DISTANCE', 'WEIGHTED_DISTANCE', 'ITERATION',
                  'OBJECTIVE', 'SOLUTION']]
