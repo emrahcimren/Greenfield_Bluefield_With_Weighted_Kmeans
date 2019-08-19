@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6696089c-cb2a-4ec8-a19c-703683e96ea1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_weighted_kmeans_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_weighted_kmeans_algorithm.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_weighted_kmeans_algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="357">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
               <folding>
                 <element signature="e#54#63#0" expanded="true" />
               </folding>
@@ -521,13 +522,17 @@
       <option name="project" value="LOCAL" />
       <updated>1566190677107</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Updated tests">
+      <created>1566190775137</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1566190775137</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_in_test_depot_customer_allocation_or_tools_model_py - 2019.08.16 at 13h 05m 41s.xml">
-      <configuration name="Nosetests in test_depot_customer_allocation_or_tools_model.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Nosetests_in_test_haversine_distance_py - 2019.08.16 at 13h 05m 56s.xml">
       <configuration name="Nosetests in test_haversine_distance.py" configurationId="tests" />
     </history-entry>
@@ -555,6 +560,9 @@
     <history-entry file="Nosetests_in_test_weighted_kmeans_algorithm_py - 2019.08.18 at 21h 57m 04s.xml">
       <configuration name="Nosetests in test_weighted_kmeans_algorithm.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Nosetests_in_test_weighted_kmeans_algorithm_py - 2019.08.18 at 21h 59m 15s.xml">
+      <configuration name="Nosetests in test_weighted_kmeans_algorithm.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -569,7 +577,7 @@
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2662624" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2662624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -579,7 +587,7 @@
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32917964" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -812,8 +820,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_weighted_kmeans_algorithm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="357">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding>
             <element signature="e#54#63#0" expanded="true" />
           </folding>

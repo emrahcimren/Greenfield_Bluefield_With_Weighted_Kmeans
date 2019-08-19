@@ -16,10 +16,10 @@ class WeightedKmeansTest(unittest.TestCase):
     def set_up(self):
 
         self.customers = pd.DataFrame({'CUSTOMER_NAME': ['Customer 7', 'Customer 8', 'Customer 6', 'Customer 9'],
-                                  'LATITUDE': [49.54617, 50.48072, 49.756845, 49.68722],
-                                  'LONGITUDE': [4.791979253, 2.410053869, 4.007695426, 3.792182567],
-                                  'DEMAND': [1802, 4044, 2392, 4868]
-                                  })
+                                       'LATITUDE': [49.54617, 50.48072, 49.756845, 49.68722],
+                                       'LONGITUDE': [4.791979253, 2.410053869, 4.007695426, 3.792182567],
+                                       'DEMAND': [1802, 4044, 2392, 4868]
+                                       })
 
         self.clusters = pd.DataFrame({'CLUSTER_NAME': ['Cluster 1', 'Cluster 2'],
                                       'CLUSTER_LATITUDE': [50.003693, 50.184061],
