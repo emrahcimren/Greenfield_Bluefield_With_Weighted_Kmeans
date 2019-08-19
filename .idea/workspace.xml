@@ -70,10 +70,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_weighted_kmeans_algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <element signature="e#54#63#0" expanded="true" />
+                <element signature="e#54#69#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -529,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566190775137</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Updated tests">
+      <created>1566190901883</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1566190901883</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -820,10 +827,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_weighted_kmeans_algorithm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#54#63#0" expanded="true" />
+            <element signature="e#54#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
