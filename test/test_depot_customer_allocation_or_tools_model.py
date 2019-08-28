@@ -4,6 +4,9 @@ Test class for the weighted kmeans algorithm
 
 import unittest
 import pandas as pd
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..')))
 from src import depot_customer_allocation_or_tools_model as dc
 
 
