@@ -1,4 +1,4 @@
 pandas==0.23.0
 mpmath==1.1.0
-numpy==1.14.3
+numpy==1.22.0
 ortools==6.10.6025
